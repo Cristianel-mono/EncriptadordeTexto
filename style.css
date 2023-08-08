@@ -1,0 +1,127 @@
+body{
+    background-color:#f3f5fc;
+}
+
+#textoOriginal{
+    
+    position: absolute;
+    width: 42%;
+    height: 60%;
+    left: 12%;
+    top: 15%;
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background-color: #f3f5fc;
+}
+
+#textoOriginal:focus, #textoOriginal:active{
+    border: none;
+    outline: none;
+}
+
+
+  
+.rectangulo{
+    position:absolute;
+    top: 70px;
+    right: 40px;
+    height: 850px;
+}
+
+
+#textoEncriptado{
+    position: absolute;
+    top:15%;
+    right: 95px;
+    height: 60%;
+    border: none;
+
+}
+
+#textoEncriptado:focus, #textoEncriptado:active{
+    border: none;
+    outline: none;
+}
+
+.imagen-muñeco{
+    position:absolute;
+    top: 250px;
+    right: 65px; 
+}
+
+.imagen-mensaje{
+    position: absolute;
+    top:600px;
+    right: 65px;
+}
+#boton-copiar{
+
+    background-color: aqua;
+    position: absolute;
+    top: 780px;
+    right: 160px;
+    width: 10%;
+    height: 5%;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #f1f1f1;
+}
+
+
+#boton-encriptar{
+    background-color: aqua;
+    position: absolute;
+    top:680px;
+    left: 400px;
+    width: 10%;
+    height: 5%;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #f1f1f1
+
+
+    
+}
+
+.new-image{
+    position:absolute;
+    width: 17%;
+    height: 40%;
+    top: 250px;
+    right: 65px;
+
+}
+
+.boton-densecriptar{
+    
+    position: absolute;
+    top: 680px;
+    left: 18cm;
+    width: 10%;
+    height: 5%;
+    background-color: aqua;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #f1f1f1
+}
+
+.imagen-advertencia{
+    position: absolute;
+    top: 616px;
+    left: 8cm;
+}
+
+.informacion{
+    position: absolute;
+    top: 580px;
+    left: 9cm;
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+    
