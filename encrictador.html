@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/Vector.png" alt="logo de alura">
+        
+    
+        <main>
+            <section>
+                
+                <textarea id="textoOriginal" cols="30" rows="10" placeholder="Ingrese el texto que desea Encriptar" onclick="clearDefaultText(this); clearPlaceholder(this);"></textarea>
+                
+            </section>
+
+            
+            
+            <section>
+                
+                <div class="container">
+                    <img  class="rectangulo" src="imagenes/Rectangle 1.png" alt="fondo">
+                    <textarea id="textoEncriptado" cols="30" rows="10"></textarea> 
+                    <img class="imagen-muñeco" src="imagenes/Muñeco.png" alt="muñeco alura">
+                    <img class="imagen-mensaje" src="imagenes/ningunmensaje.png" alt="ningun mensaje fue encontrado">
+                    <img class="new-image"   src="imagenes/encriptado.jpg" alt="textoEncriptado" style="display: none;>
+                    
+                </div>
+                
+                
+                
+            </section>
+        </main>
+
+    </header>
+
+    <footer>
+        <img class="imagen-advertencia"src="imagenes/advertencia.png">
+        <h6 class="informacion">Solo puedes encriptar letras minisculas y sin acentos</h6>
+        
+        <div class="botones">
+            <button id="boton-encriptar"  onclick="encriptarTexto()"> Encriptar</button>
+            <button class="boton-densecriptar" onclick="desencriptarTexto()"> Desencriptar</button>
+            <button id="boton-copiar">Copiar</button>
+            
+
+
+            
+        </div>
+        
+
+    </footer>
+    <script  src="funcion.js"></script>
+</body>
+</html>
